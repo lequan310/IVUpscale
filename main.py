@@ -1,6 +1,6 @@
 """
-Upscale video: python -v/--video {VIDEO_PATH}
-Upscale image: python -v/--video {IMAGE_PATH}
+Upscale video: python main.py -v/--video {VIDEO_PATH}
+Upscale image: python main.py -v/--video {IMAGE_PATH}
 Additional argument:
     -m/--mode [0 or 1] (enhancement mode false or true, enhancement true required opencv installed with cuda)
     -s/--scale value (2, 3, or 4)
